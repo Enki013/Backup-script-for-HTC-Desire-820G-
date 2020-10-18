@@ -1,0 +1,50 @@
+# This rom zip is created by HTC Desire 820G+ Backup script by Enki | TurkDevs
+ui_print("")
+ui_print("TTTTTTTTTTTTTTTTTTTTTTTDDDDDDDDDDDDD        ");
+ui_print("T:::::::::::::::::::::TD::::::::::::DDD     ");
+ui_print("T:::::::::::::::::::::TD:::::::::::::::DD   ");
+ui_print("T:::::TT:::::::TT:::::TDDD:::::DDDDD:::::D  ");
+ui_print("TTTTTT  T:::::T  TTTTTT  D:::::D    D:::::D ");
+ui_print("        T:::::T          D:::::D     D:::::D");
+ui_print("        T:::::T          D:::::D     D:::::D");
+ui_print("        T:::::T          D:::::D     D:::::D");
+ui_print("        T:::::T          D:::::D     D:::::D");
+ui_print("        T:::::T          D:::::D     D:::::D");
+ui_print("        T:::::T          D:::::D     D:::::D");
+ui_print("        T:::::T          D:::::D    D:::::D ");
+ui_print("      TT:::::::TT      DDD:::::DDDDD:::::D  ");
+ui_print("      T:::::::::T      D:::::::::::::::DD   ");
+ui_print("      T:::::::::T      D::::::::::::DDD     ");
+ui_print("      TTTTTTTTTTTurk    DDDDDDDDDDDDDevs    ");
+ui_print(" ");
+ui_print(" ");
+ui_print("**************** Hardware *****************");
+ui_print("-->> Device codename: htc_a50mgp_dug");
+ui_print("");
+ui_print("-->> Manufacturer: HTC");
+ui_print("");
+ui_print("*******************************************");
+ui_print("**https://forum.turkdevs.com/uye/e3e4.62142/**");
+ui_print("");
+ifelse(is_mounted("/system"), unmount("/system"));
+show_progress(1, 40);
+format("ext4", "EMMC", "/dev/block/mmcblk0p6", "0", "/system");
+mount("ext4", "EMMC", "/dev/block/mmcblk0p6", "/system");
+ui_print(">>Installing System...");
+ui_print("");
+package_extract_file("system.img", "/dev/block/mmcblk0p6");
+ui_print(">>Installing Kernel...");
+ui_print("");
+assert(package_extract_file("boot.img", "/tmp/boot.img"),
+       write_raw_image("/tmp/boot.img", "bootimg"),
+       delete("/tmp/boot.img"));
+show_progress(0.200000, 10);
+ui_print(">>Installing Logo...");
+ui_print("");
+package_extract_file("logo.bin", "/dev/logo");
+ui_print(">>Installing Recovery...");
+ui_print("");
+package_extract_file("recovery.img", "/dev/recovery");
+unmount("/system");
+ui_print(">>Installation was successful...");
+ui_print(">>Reboot your device, now...");
