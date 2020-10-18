@@ -7,6 +7,6 @@ Requests
 -root
 -a little brain
 
-run command 
+run command
 open terminal
 sh /sdcard/backup-parts/backup_script.by.enki.sh
