@@ -1,9 +1,8 @@
 
 # Backup  Script For HTC Desire 820G+
 
-[![N|Solid](https://i.hizliresim.com/pojs8T.png)](http://enki.gearhostpreview.com/)
-
-[![svg](https://upload.wikimedia.org/wikipedia/commons/4/4b/Bash_Logo_Colored.svg)
+[![N|Enki](https://i.hizliresim.com/pojs8T.png)](http://enki.gearhostpreview.com/)
+![](https://upload.wikimedia.org/wikipedia/commons/4/4b/Bash_Logo_Colored.svg | width=100)
 
 HTC Desire 820G Plus dual sim backup system.img boot.img logo.img recovery.img and create installer zip
 
