@@ -1,7 +1,6 @@
 
 # Backup  Script For HTC Desire 820G+
 
-[![N|Enki](https://i.hizliresim.com/pojs8T.png)](http://enki.gearhostpreview.com/)
 
 ![shell](https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Bash_Logo_Colored.svg/200px-Bash_Logo_Colored.svg.png)
 
@@ -36,3 +35,5 @@ follow the instructions
 
 good luck :)
 by [Enki](https://enki.gearhostpreview.com)
+
+[![N|Enki](https://i.hizliresim.com/pojs8T.png)](http://enki.gearhostpreview.com/)
