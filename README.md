@@ -3,6 +3,7 @@
 
 [![N|Enki](https://i.hizliresim.com/pojs8T.png)](http://enki.gearhostpreview.com/)
 
+![shell](https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Bash_Logo_Colored.svg/200px-Bash_Logo_Colored.svg.png)
 
 HTC Desire 820G Plus dual sim backup system.img boot.img logo.img recovery.img and create installer zip
 
