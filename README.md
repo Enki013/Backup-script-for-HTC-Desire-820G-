@@ -23,7 +23,7 @@ HTC Desire 820G Plus dual sim backup system.img boot.img logo.img recovery.img a
 
 ### Installation
 
-Backup sciprt requires [root](https://download.chainfire.eu/696/supersu/) and [busybox](https://play.google.com/store/apps/details?id=stericson.busybox&hl=en&gl=US) to run.
+Backup script requires [root](https://download.chainfire.eu/696/supersu/) and [busybox](https://play.google.com/store/apps/details?id=stericson.busybox&hl=en&gl=US) to run.
 
 extract archive to /sdcard and install terminal
 
