@@ -34,6 +34,6 @@ $ sh /sdcard/backup-parts/backup_script.by.enki.sh
 follow the instructions
 
 good luck :)
-by [Enki](https://enki.gearhostpreview.com)
+by [Enki](https://my-links-pi.vercel.app/)
 
 [![N|Enki](https://avatars.githubusercontent.com/u/39771190)](https://my-links-pi.vercel.app/)
