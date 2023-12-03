@@ -36,4 +36,4 @@ follow the instructions
 good luck :)
 by [Enki](https://enki.gearhostpreview.com)
 
-[![N|Enki](https://i.hizliresim.com/pojs8T.png)](http://enki.gearhostpreview.com/)
+[![N|Enki](https://avatars.githubusercontent.com/u/39771190)](https://my-links-pi.vercel.app/)
