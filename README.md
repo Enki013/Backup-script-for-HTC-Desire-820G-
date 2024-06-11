@@ -11,7 +11,6 @@ HTC Desire 820G Plus dual sim backup system.img boot.img logo.img recovery.img a
   - Terminal
   - Root
   - Busybox
-  - a little brain
 
 # Feature
 
